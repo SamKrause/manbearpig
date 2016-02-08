@@ -1,0 +1,110 @@
+/* Whole document */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 100%;
+	font-family: helvetica, sans-serif;
+	margin: 1em;
+}
+.section_head {
+	font-variant: small-caps;
+	font-family: Tahoma Geneva sans-serif;
+	font-size: 2.2em;
+	display: inline-block;
+	margin-bottom: -2em;
+}
+
+.title_head {
+	font-variant: small-caps;
+	font-family: Tahoma Geneva sans-serif;
+	font-size: 3em;
+	text-align: center;
+	margin-bottom: -1em;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: green;
+}
+
+/*  Header  */
+header {
+	margin: 1em;
+	border: .2em solid black;
+}
+
+header p {
+	text-align: center;
+	margin-bottom: .2em;
+	margin-top: .2em;
+}
+
+header > p {
+	font-variant: small-caps;
+	font-family: Tahoma Geneva sans-serif;
+	font-size: 3em;
+}
+
+/* trophy pic */
+
+img.mbp {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+/* Consittion element*/
+.constituion {
+	width: 100%;
+	margin-left: 2em;
+}
+
+.constpic {
+	width: 12em;
+	height: 15em;
+	float: right;
+	margin-top: 3em;
+	margin-left: 1em;
+}
+
+/* members element */
+
+.members {
+	float: left;
+	width: 100%;
+}
+
+.column1 {
+	float: left;
+	margin-right: 2em;
+	margin-left: 2em;
+}
+.column1 * li {
+	margin-bottom: .2em;
+}
+
+.column2 {
+	float: left;
+	margin-right: 2em;
+	margin-left: 2em;
+}
+
+.column2 * li {
+	margin-bottom: .2em;
+}
+/* Footer All Pages */
+footer {
+	text-align: center;
+}
