@@ -108,3 +108,7 @@ img.mbp {
 footer {
 	text-align: center;
 }
+
+#index {
+	clear: both;
+}
